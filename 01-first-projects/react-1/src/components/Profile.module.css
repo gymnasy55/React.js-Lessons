@@ -1,0 +1,12 @@
+.main {
+    grid-area: m;
+    background-color: red;
+}
+
+.item {
+    color: red;
+}
+
+.posts {
+
+}
