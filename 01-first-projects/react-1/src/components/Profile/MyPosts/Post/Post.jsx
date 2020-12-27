@@ -1,13 +1,13 @@
 import React from "react";
 import classes from './Post.module.css';
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={classes.item}>
             <img src="https://blog.golang.org/7years/gopherbelly300.jpg" alt=""/>
-            post 1
+            {props.message}
             <div>
-                <span>like</span>
+                <span>{props.likesCount} like</span>
             </div>
         </div>
     )
