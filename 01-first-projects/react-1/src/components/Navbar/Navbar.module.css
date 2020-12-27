@@ -1,12 +1,18 @@
 .nav {
     grid-area: n;
     background-color: #d58fff;
+    padding: 20px;
 }
 
-.item {
+.item a {
     color: white;
+    text-decoration: none;
 }
 
-.item.active {
+.item a:hover{
+    text-decoration: underline;
+}
+
+.item a.active {
     color: gold;
 }
