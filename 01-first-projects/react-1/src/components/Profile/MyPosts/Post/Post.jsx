@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src="https://blog.golang.org/7years/gopherbelly300.jpg" alt=""/>
             {props.message}
             <div>
-                <span>{props.likesCount} like</span>
+                <span>like</span> {props.likesCount}
             </div>
         </div>
     )
