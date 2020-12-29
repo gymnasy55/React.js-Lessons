@@ -5,7 +5,7 @@ const ProfileInfo = (props) => {
     return (
         <div>
             <div>
-                <img src="https://s3.tproger.ru/uploads/2018/04/logos.jpg" alt=""/>
+                <img className={classes.profileBanner} src="https://s3.tproger.ru/uploads/2018/04/logos.jpg" alt=""/>
             </div>
             <div className={classes.descriptionBlock}>
                 ava + description
