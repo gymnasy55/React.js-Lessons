@@ -5,12 +5,6 @@ import Dialogs from "./Dialogs";
 const DialogsContainer = (props) => {
     let state = props.store.getState().dialogsPage;
 
-    let addMessageElement = React.createRef();
-    let addMessage = () => {
-        let text = addMessageElement.current.value;
-        alert(text);
-    }
-
     let onSendMessageClick = () => {
         props.store.dispatch(sendMessageCreator());
     }
